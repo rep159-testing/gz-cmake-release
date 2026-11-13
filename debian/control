@@ -1,0 +1,12 @@
+Source: ros-extendablejetty-gz-cmake
+Section: misc
+Priority: optional
+Maintainer: "Steve Peters" <scpeters@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), cmake, cmake <!nocheck>, pkg-config, ros-extendablejetty-ros-workspace-shell
+Homepage: https://github.com/gazebosim/gz-cmake
+Standards-Version: 3.9.2
+
+Package: ros-extendablejetty-gz-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-extendablejetty-ros-workspace-shell
+Description: Gazebo CMake : CMake Modules for Gazebo Projects
